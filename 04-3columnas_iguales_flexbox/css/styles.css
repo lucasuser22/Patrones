@@ -39,3 +39,16 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .tres-columnas {
+        display: flex;
+        /*gap: 2rem; este hace todo lo que hace el siguiente codigo pero lo usamos porque 
+        algunas paginas todavia no lo soportan aunque para este tiempo quiza si */
+        justify-content: space-between;
+    }
+
+    .entrada-blog{
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}

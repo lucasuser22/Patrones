@@ -49,3 +49,16 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .con-sidebar{
+        display: flex;
+        gap: 4rem;
+    }
+    aside {
+        flex: 1; /* factor de crecimiento por cada 1 pixel que toma el aside el article tomara 3 */
+    }
+    article {
+        flex: 3;
+    }
+}

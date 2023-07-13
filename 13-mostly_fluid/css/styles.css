@@ -37,3 +37,25 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+.contenedor {
+    max-width: 120rem; /* para no demandarle a la imagen que se estire demasiado y por ende quede centrada */
+    width: 95%; /* para no establecer un tamaño fijo, sino que lo hara por porcentaje para adaptarse
+    al tamaño de los dispositivos y que no haga scroll hacia los lados */
+    margin: 0 auto; /*centrar contenido bordes inferior y superior 0 y bordes laterales auto */
+}
+/*
+@media (min-width: 768px) {
+    .contenedor{
+        width: 80%;
+    }
+}
+@media (min-width: 992px) {
+    .contenedor{
+        width: 95%;
+    }
+}
+*/
+img{
+    max-width: 100%; /* para que la imagen tambien se adapte al dispositivo y sea responsive */
+}
